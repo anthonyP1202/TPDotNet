@@ -1,4 +1,4 @@
-USE [ StacktimDb]
+USE [StacktimDb]
 GO
 
 INSERT INTO [dbo].[Teams]
