@@ -86,24 +86,7 @@ namespace StacktimApi.Controllers
             player.Email = value.Email;
             player.Rank = value.Rank;
             player.Pseudo = value.Pseudo;
-            
-            ICollection<Team> teams = player.Teams.ToList();
-            if (value.Teams.ToList() != null)
-            {
-                foreach (Team team in value.Teams.ToList())
-                {
-                    if (teams.Contains(team))
-                    {
-                        continue;
-                    }
-                    else
-                    {
-                        teams.Add(team);
-                    }
-                }
-            }
-            
-            player.Teams = teams;
+            player.TotalScore = value.TotalScore;
 
             _context.Players.Update(player);
             _context.SaveChanges();
