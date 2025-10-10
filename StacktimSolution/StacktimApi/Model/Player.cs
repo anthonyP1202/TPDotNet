@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace StacktimApi;
+namespace StacktimApi.Model;
 
 public partial class Player
 {

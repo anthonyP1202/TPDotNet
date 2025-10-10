@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\administrateur.acasrvrds001\\documents\\c#proj\\tpdotnet\\stacktimsolution\\stacktimapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\administrateur.acasrvrds001\\documents\\c#proj\\tpdotnet\\stacktimsolution\\stacktimapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\administrateur.acasrvrds001\\documents\\c#proj\\tpdotnet\\stacktimsolution\\stacktimapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\administrateur.acasrvrds001\\documents\\c#proj\\tpdotnet\\stacktimsolution\\stacktimapi\\dtos\\createplayerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\dtos\\createplayerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\administrateur.acasrvrds001\\documents\\c#proj\\tpdotnet\\stacktimsolution\\stacktimapi\\stacktimapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\stacktimapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\administrateur.acasrvrds001\\documents\\c#proj\\tpdotnet\\stacktimsolution\\stacktimapi\\dtos\\updateplayerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\dtos\\updateplayerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\administrateur.acasrvrds001\\documents\\c#proj\\tpdotnet\\stacktimsolution\\stacktimapi\\dtos\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\dtos\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\administrateur.acasrvrds001\\documents\\c#proj\\tpdotnet\\stacktimsolution\\stacktimapi\\model\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\model\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\administrateur.acasrvrds001\\documents\\c#proj\\tpdotnet\\stacktimsolution\\stacktimapi\\model\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\model\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\administrateur.acasrvrds001\\documents\\c#proj\\tpdotnet\\stacktimsolution\\stacktimapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StacktimApi.http",
-              "DocumentMoniker": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\StacktimApi.http",
-              "RelativeDocumentMoniker": "StacktimApi\\StacktimApi.http",
-              "ToolTip": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\StacktimApi.http",
-              "RelativeToolTip": "StacktimApi\\StacktimApi.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-10-09T12:37:22.519Z",
+              "DocumentIndex": 2,
+              "Title": "UpdatePlayerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\DTOs\\UpdatePlayerDTO.cs",
+              "RelativeDocumentMoniker": "StacktimApi\\DTOs\\UpdatePlayerDTO.cs",
+              "ToolTip": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\DTOs\\UpdatePlayerDTO.cs",
+              "RelativeToolTip": "StacktimApi\\DTOs\\UpdatePlayerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T07:30:02.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\Program.cs",
-              "RelativeDocumentMoniker": "StacktimApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\Program.cs",
-              "RelativeToolTip": "StacktimApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Title": "CreatePlayerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\DTOs\\CreatePlayerDTO.cs",
+              "RelativeDocumentMoniker": "StacktimApi\\DTOs\\CreatePlayerDTO.cs",
+              "ToolTip": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\DTOs\\CreatePlayerDTO.cs",
+              "RelativeToolTip": "StacktimApi\\DTOs\\CreatePlayerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T12:24:47.26Z",
+              "WhenOpened": "2025-10-10T07:29:41.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "PlayerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\DTOs\\PlayerDTO.cs",
+              "RelativeDocumentMoniker": "StacktimApi\\DTOs\\PlayerDTO.cs",
+              "ToolTip": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\DTOs\\PlayerDTO.cs",
+              "RelativeToolTip": "StacktimApi\\DTOs\\PlayerDTO.cs",
+              "ViewState": "AgIAAAMAAABgZmZmZmYWwBUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T07:29:14.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\appsettings.json",
               "RelativeDocumentMoniker": "StacktimApi\\appsettings.json",
               "ToolTip": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\appsettings.json",
               "RelativeToolTip": "StacktimApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-09T12:23:31.294Z",
+              "WhenOpened": "2025-10-10T06:29:09.578Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "StacktimApi\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "StacktimApi\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\Program.cs",
+              "RelativeDocumentMoniker": "StacktimApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\Program.cs",
+              "RelativeToolTip": "StacktimApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T12:19:10.396Z",
+              "WhenOpened": "2025-10-09T14:55:22.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\Model\\Team.cs",
+              "RelativeDocumentMoniker": "StacktimApi\\Model\\Team.cs",
+              "ToolTip": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\Model\\Team.cs",
+              "RelativeToolTip": "StacktimApi\\Model\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T14:51:36.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\Model\\Player.cs",
+              "RelativeDocumentMoniker": "StacktimApi\\Model\\Player.cs",
+              "ToolTip": "C:\\Users\\Administrateur.ACASRVRDS001\\Documents\\C#Proj\\TPDotNet\\StacktimSolution\\StacktimApi\\Model\\Player.cs",
+              "RelativeToolTip": "StacktimApi\\Model\\Player.cs",
+              "ViewState": "AgIAAAQAAACAZmZmZmYEwBMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T14:29:50.097Z",
               "EditorCaption": ""
             }
           ]

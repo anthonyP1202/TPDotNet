@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using StacktimApi.Model;
 
-namespace StacktimApi;
+namespace StacktimApi.Data;
 
 public partial class StacktimDbContext : DbContext
 {
