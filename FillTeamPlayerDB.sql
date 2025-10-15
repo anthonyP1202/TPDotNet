@@ -3,7 +3,7 @@ GO
 
 INSERT INTO [dbo].[TeamPlayers]
            ([TeamId]
-           ,[sPlayerId]
+           ,[PlayerId]
            ,[Role])
      VALUES
            ((select [dbo].[Teams].[ID] from [dbo].[Teams] where Name = 'molusque'),(select [dbo].[Players].[ID] from [dbo].[Players] where PSEUDO = 'timmy'),0),

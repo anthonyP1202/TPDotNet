@@ -68,8 +68,15 @@ namespace StacktimApi.Controllers
                 _context.SaveChanges();
             } catch (Exception err)
             {
-                Console.WriteLine(err);
-                return NotFound();
+                if (err.InnerException is System.Runtime.InteropServices.ExternalException comEx)
+                {
+                    if (comEx.ErrorCode == -2146232060)
+                    {
+                        Console.WriteLine(err);
+                        return BadRequest();
+                    }
+                }
+                return BadRequest();
             }
             return Ok();
         }
@@ -88,9 +95,23 @@ namespace StacktimApi.Controllers
             player.Pseudo = value.Pseudo;
             player.TotalScore = value.TotalScore;
 
-            _context.Players.Update(player);
-            _context.SaveChanges();
-            return player;
+            try
+            {
+                _context.Players.Update(player);
+                _context.SaveChanges();
+            }
+            catch (Exception err)
+            {
+                if (err.InnerException is System.Runtime.InteropServices.ExternalException comEx)
+                {
+                    if (comEx.ErrorCode == -2146232060)
+                    {
+                        Console.WriteLine(err);
+                        return BadRequest();
+                    }
+                }
+            }
+            return Ok();
         }
 
         // DELETE api/<PlayerController>/5
