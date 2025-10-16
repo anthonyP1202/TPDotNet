@@ -62,9 +62,16 @@ namespace StacktimApi.Controllers
             player.Teams = value.Teams;
             player.Rank = value.Rank;
             player.Pseudo = value.Pseudo;
+            IEnumerable<Team> playerTeams = player.Teams.ToList();
+            player.Teams.Clear();
             try
             {
                 _context.Players.Add(player);
+                _context.SaveChanges();
+                foreach (Team team in playerTeams)
+                {
+                    _context.Database.ExecuteSqlRaw("INSERT INTO TeamPlayers (PlayerId, TeamId, Role) VALUES ({0}, {1}, 0)", player.Id, team.Id);
+                }
                 _context.SaveChanges();
             } catch (Exception err)
             {
@@ -94,10 +101,16 @@ namespace StacktimApi.Controllers
             player.Rank = value.Rank;
             player.Pseudo = value.Pseudo;
             player.TotalScore = value.TotalScore;
-
+            IEnumerable<Team> playerTeams = player.Teams.ToList();
+            player.Teams.Clear();
             try
             {
                 _context.Players.Update(player);
+                _context.SaveChanges();
+                foreach (Team team in playerTeams)
+                {
+                    _context.Database.ExecuteSqlRaw("INSERT INTO TeamPlayers (PlayerId, TeamId, Role) VALUES ({0}, {1}, 0)", player.Id, team.Id);
+                }
                 _context.SaveChanges();
             }
             catch (Exception err)
