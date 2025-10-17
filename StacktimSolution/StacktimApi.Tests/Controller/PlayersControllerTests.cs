@@ -1,4 +1,5 @@
-﻿using IdentityModel.OidcClient;
+﻿using FluentAssertions;
+using IdentityModel.OidcClient;
 using k8s.KubeConfigModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -194,6 +195,59 @@ namespace StacktimApi.Tests.Controller
                 Assert.IsType<OkResult>(result.Result);
                 Player deletedPlayer = context.Players.FirstOrDefault(play=>play.Id == player.Id);
                 Assert.True(deletedPlayer == null);
+            }
+        }
+
+        [Fact]
+        public void GetLeaderboard_ReturnsOrderedPlayers()
+        {
+            using (StacktimApi.Data.StacktimDbContext context = new StacktimApi.Data.StacktimDbContext(_options))
+            {
+                //SET
+                IEnumerable<Player> users = context.Players.ToList();
+                PlayerController playerController = new PlayerController(context);
+
+                if (users.Count() == 0) {
+                    try { 
+                        List<Player> players = new List<Player>
+                        {
+                            new Player { Email = "testting@test.com", Pseudo = "testting", Rank = "Gold", TotalScore = 20 },
+                            new Player { Email = "outofidea'sbrother@test.com", Pseudo = "outofidea'sbrother", Rank = "Silver", TotalScore = 30 },
+                            new Player { Email = "alpha@test.com", Pseudo = "Alpha", Rank = "Bronze", TotalScore = 10 },
+                            new Player { Email = "bravo@test.com", Pseudo = "Bravo", Rank = "Silver", TotalScore = 20 },
+                            new Player { Email = "charlie@test.com", Pseudo = "Charlie", Rank = "Gold", TotalScore = 30 },
+                            new Player { Email = "delta@test.com", Pseudo = "Delta", Rank = "Platinum", TotalScore = 40 },
+                            new Player { Email = "echo@test.com", Pseudo = "Echo", Rank = "Diamond", TotalScore = 50 },
+                            new Player { Email = "foxtrot@test.com", Pseudo = "Foxtrot", Rank = "Master", TotalScore = 60 },
+                            new Player { Email = "golf@test.com", Pseudo = "Golf", Rank = "Bronze", TotalScore = 15 },
+                            new Player { Email = "hotel@test.com", Pseudo = "Hotel", Rank = "Silver", TotalScore = 25 },
+                            new Player { Email = "india@test.com", Pseudo = "India", Rank = "Gold", TotalScore = 35 },
+                            new Player { Email = "juliet@test.com", Pseudo = "Juliet", Rank = "Platinum", TotalScore = 45 },
+                            new Player { Email = "kilo@test.com", Pseudo = "Kilo", Rank = "Diamond", TotalScore = 55 },
+                            new Player { Email = "lima@test.com", Pseudo = "Lima", Rank = "Master", TotalScore = 65 }
+
+                        };
+                        context.AddRange(players);
+                        context.SaveChanges();
+                    } catch
+                    {
+
+                    }
+                }
+                users = context.Players.ToList();
+
+                //ACT
+                ActionResult<IEnumerable<PlayerDTO>> response = playerController.LeaderBoard();
+
+                //TEST
+                var okResult = Assert.IsType<OkObjectResult>(response.Result);
+                IEnumerable<PlayerDTO> playerDtos = Assert.IsAssignableFrom<IEnumerable<PlayerDTO>>(okResult.Value);
+                Assert.True(playerDtos.Count() <= 10);
+
+                var ordered = playerDtos.OrderByDescending(p => p.TotalScore).ToList();
+                var original = playerDtos.ToList();
+
+                Assert.True(original.SequenceEqual(ordered));
             }
         }
     }

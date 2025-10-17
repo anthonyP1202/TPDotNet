@@ -157,7 +157,8 @@ namespace StacktimApi.Controllers
         [HttpGet("leaderboard")]
         public ActionResult<IEnumerable<PlayerDTO>> LeaderBoard()
         {
-            IEnumerable<Player> players = _context.Players.FromSqlRaw("SELECT TOP 10 * FROM Players ORDER BY \"TotalScore\" desc ").ToList();
+            IEnumerable<Player> players = _context.Players.OrderByDescending(p => p.TotalScore).Take(10).ToList();
+
             List<PlayerDTO> playerDTO = new List<PlayerDTO> { };
 
             foreach (Player player in players)
