@@ -91,5 +91,42 @@ namespace StacktimApi.Tests.Controller
 
             }
         }
+
+        [Fact]
+        public void CreatePlayer_WithValidData_ReturnsCreated()
+        {
+            using (StacktimApi.Data.StacktimDbContext context = new StacktimApi.Data.StacktimDbContext(_options))
+            {
+                //Setuop
+                PlayerController playerController = new PlayerController(context);
+                Player playerByEmail = context.Players.FirstOrDefault(p => p.Email == "jetestdestruk");
+                Player playerByPseudo = context.Players.FirstOrDefault(p => p.Pseudo == "jtestdestrul");
+
+                if (playerByEmail != null)
+                {
+                    context.Players.Remove(playerByEmail);
+                }
+
+                if (playerByPseudo != null)
+                {
+                    context.Players.Remove(playerByPseudo);
+                } 
+
+                Player player = new Player{
+                    Email = "jetestdestruk",
+                    Pseudo = "jtestdestrul",
+                    Rank = "Gold"
+                };
+
+                //Act
+                var succeded = playerController.Post(player);
+
+                //TEST
+                Assert.IsType<OkResult>(succeded.Result);
+                playerByEmail = context.Players.FirstOrDefault(p => p.Email == "jetestdestruk");
+                Assert.True(playerByEmail != null);
+                
+            }
+        }
     }
 }
