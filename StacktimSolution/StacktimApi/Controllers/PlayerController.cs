@@ -57,10 +57,22 @@ namespace StacktimApi.Controllers
         [HttpPost]
         public ActionResult<PlayerDTO> Post([FromBody] Player value)
         {
+            String[] array = new String[] { "Bronze", "Silver", "Gold", "Platinum", "Diamond", "Master" };
+            Player playerByEmail = _context.Players.FirstOrDefault(p => p.Email == value.Email);
+            Player playerByPseudo = _context.Players.FirstOrDefault(p => p.Pseudo == value.Pseudo);
+            if (playerByPseudo != null || playerByEmail != null) {
+                return BadRequest();
+            }
             Player player = new Player();
             player.Email = value.Email;
             player.Teams = value.Teams;
-            player.Rank = value.Rank;
+            if (array.Contains(value.Rank)){
+                player.Rank = value.Rank;
+            } else
+            {
+                player.Rank = "Bronze";
+            }
+            
             player.Pseudo = value.Pseudo;
             IEnumerable<Team> playerTeams = player.Teams.ToList();
             player.Teams.Clear();

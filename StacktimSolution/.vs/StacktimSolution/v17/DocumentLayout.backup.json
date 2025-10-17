@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F68395C-8C07-414B-B7B3-6767ABD19B95}|StacktimApi.Tests\\StacktimApi.Tests.csproj|c:\\users\\perei\\documents\\github\\tpdotnet\\stacktimsolution\\stacktimapi.tests\\controller\\playerscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F68395C-8C07-414B-B7B3-6767ABD19B95}|StacktimApi.Tests\\StacktimApi.Tests.csproj|solutionrelative:stacktimapi.tests\\controller\\playerscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\perei\\documents\\github\\tpdotnet\\stacktimsolution\\stacktimapi\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F68395C-8C07-414B-B7B3-6767ABD19B95}|StacktimApi.Tests\\StacktimApi.Tests.csproj|c:\\users\\perei\\documents\\github\\tpdotnet\\stacktimsolution\\stacktimapi.tests\\controller\\playerscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F68395C-8C07-414B-B7B3-6767ABD19B95}|StacktimApi.Tests\\StacktimApi.Tests.csproj|solutionrelative:stacktimapi.tests\\controller\\playerscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F68395C-8C07-414B-B7B3-6767ABD19B95}|StacktimApi.Tests\\StacktimApi.Tests.csproj|c:\\users\\perei\\documents\\github\\tpdotnet\\stacktimsolution\\stacktimapi.tests\\helpers\\testdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,30 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 222,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi\\Controllers\\PlayerController.cs",
               "RelativeDocumentMoniker": "StacktimApi\\Controllers\\PlayerController.cs",
               "ToolTip": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi\\Controllers\\PlayerController.cs",
               "RelativeToolTip": "StacktimApi\\Controllers\\PlayerController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAIA2wDUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwD8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-17T16:31:56.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayersControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi.Tests\\Controller\\PlayersControllerTests.cs",
               "RelativeDocumentMoniker": "StacktimApi.Tests\\Controller\\PlayersControllerTests.cs",
               "ToolTip": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi.Tests\\Controller\\PlayersControllerTests.cs",
               "RelativeToolTip": "StacktimApi.Tests\\Controller\\PlayersControllerTests.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAcwH0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowGYAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-17T16:25:07.958Z",
               "EditorCaption": ""
