@@ -42,7 +42,7 @@ namespace StacktimApi.Controllers
             {
                 return NotFound();
             }
-            return (team);
+            return Ok(team);
         }
 
         // POST api/<TeamController>

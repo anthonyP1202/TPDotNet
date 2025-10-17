@@ -50,17 +50,29 @@ namespace StacktimApi.Controllers
             {
                 return NotFound();
             }
-            return convertToDTO(player);
+            return Ok(convertToDTO(player));
         }
 
         // POST api/<PlayerController>
         [HttpPost]
         public ActionResult<PlayerDTO> Post([FromBody] Player value)
         {
+            String[] array = new String[] { "Bronze", "Silver", "Gold", "Platinum", "Diamond", "Master" };
+            Player playerByEmail = _context.Players.FirstOrDefault(p => p.Email == value.Email);
+            Player playerByPseudo = _context.Players.FirstOrDefault(p => p.Pseudo == value.Pseudo);
+            if (playerByPseudo != null || playerByEmail != null) {
+                return BadRequest();
+            }
             Player player = new Player();
             player.Email = value.Email;
             player.Teams = value.Teams;
-            player.Rank = value.Rank;
+            if (array.Contains(value.Rank)){
+                player.Rank = value.Rank;
+            } else
+            {
+                player.Rank = "Bronze";
+            }
+            
             player.Pseudo = value.Pseudo;
             IEnumerable<Team> playerTeams = player.Teams.ToList();
             player.Teams.Clear();
@@ -145,7 +157,8 @@ namespace StacktimApi.Controllers
         [HttpGet("leaderboard")]
         public ActionResult<IEnumerable<PlayerDTO>> LeaderBoard()
         {
-            IEnumerable<Player> players = _context.Players.FromSqlRaw("SELECT TOP 10 * FROM Players ORDER BY \"TotalScore\" desc ").ToList();
+            IEnumerable<Player> players = _context.Players.OrderByDescending(p => p.TotalScore).Take(10).ToList();
+
             List<PlayerDTO> playerDTO = new List<PlayerDTO> { };
 
             foreach (Player player in players)
