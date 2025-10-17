@@ -1,4 +1,5 @@
 ﻿using k8s.KubeConfigModels;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StacktimApi.Controllers;
@@ -82,6 +83,57 @@ namespace StacktimApi.Tests.Controller
                 var okResult = Assert.IsType<OkObjectResult>(teamToTest.Result);
                 Team team2 = Assert.IsType<Team>(okResult.Value);
                 Assert.Equal(team.Id, team2.Id);
+            }
+        }
+
+        [Fact]
+        public void PostTeam_WithValidData()
+        {
+            using (StacktimApi.Data.StacktimDbContext context = new StacktimApi.Data.StacktimDbContext(_options))
+            {
+                //Setup
+                TeamController teamController = new TeamController(context);
+                Player player = context.Players.FirstOrDefault();
+                if (player == null)
+                {
+                    List<Player> players = new List<Player>
+                    {
+                        new Player { Email = "testting@test.com", Pseudo = "testting", Rank = "Gold", TotalScore = 0 },
+                        new Player { Email = "outofidea'sbrother@test.com", Pseudo = "outofidea'sbrother", Rank = "Silver", TotalScore = 0 }
+                    };
+
+                    context.AddRange(players);
+                    context.SaveChanges();
+                }
+                player = context.Players.First();
+
+                Team teamByEmail = context.Teams.FirstOrDefault(p => p.Name == "jetestdestruk");
+                Team teamByPseudo = context.Teams.FirstOrDefault(p => p.Tag == "JTT");
+
+                if (teamByEmail != null)
+                {
+                    context.Teams.Remove(teamByEmail);
+                }
+
+                if (teamByPseudo != null)
+                {
+                    context.Teams.Remove(teamByPseudo);
+                }
+
+                Team team = new Team
+                {
+                    Name = "jetestdestruk",
+                    Tag = "JTT",
+                    CaptainId = player.Id,
+                };
+
+                //Act
+                ActionResult<Team> ressult = teamController.Post(team);
+
+                //Test
+                Assert.IsType<OkResult>(ressult.Result);
+                Team teaml = context.Teams.FirstOrDefault(p => p.Name == "jetestdestruk");
+                Assert.True(teaml != null);
             }
         }
     }
