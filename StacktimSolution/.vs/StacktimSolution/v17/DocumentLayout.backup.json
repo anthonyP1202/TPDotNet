@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\perei\\documents\\github\\tpdotnet\\stacktimsolution\\stacktimapi\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F68395C-8C07-414B-B7B3-6767ABD19B95}|StacktimApi.Tests\\StacktimApi.Tests.csproj|c:\\users\\perei\\documents\\github\\tpdotnet\\stacktimsolution\\stacktimapi.tests\\helpers\\testdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F68395C-8C07-414B-B7B3-6767ABD19B95}|StacktimApi.Tests\\StacktimApi.Tests.csproj|solutionrelative:stacktimapi.tests\\helpers\\testdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\perei\\documents\\github\\tpdotnet\\stacktimsolution\\stacktimapi\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\perei\\documents\\github\\tpdotnet\\stacktimsolution\\stacktimapi\\data\\stacktimdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\data\\stacktimdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F68395C-8C07-414B-B7B3-6767ABD19B95}|StacktimApi.Tests\\StacktimApi.Tests.csproj|c:\\users\\perei\\documents\\github\\tpdotnet\\stacktimsolution\\stacktimapi.tests\\integrationtest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F68395C-8C07-414B-B7B3-6767ABD19B95}|StacktimApi.Tests\\StacktimApi.Tests.csproj|solutionrelative:stacktimapi.tests\\integrationtest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\perei\\documents\\github\\tpdotnet\\stacktimsolution\\stacktimapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\perei\\documents\\github\\tpdotnet\\stacktimsolution\\stacktimapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\perei\\documents\\github\\tpdotnet\\stacktimsolution\\stacktimapi\\dtos\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\dtos\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\perei\\documents\\github\\tpdotnet\\stacktimsolution\\stacktimapi\\model\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\model\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|c:\\users\\perei\\documents\\github\\tpdotnet\\stacktimsolution\\stacktimapi\\model\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24AF2896-2830-46B3-B4F1-F7F0AD6F31C8}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\model\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,94 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 222,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi\\appsettings.json",
-              "RelativeDocumentMoniker": "StacktimApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi\\appsettings.json",
-              "RelativeToolTip": "StacktimApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-10T06:29:09.578Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TeamController.cs",
-              "DocumentMoniker": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi\\Controllers\\TeamController.cs",
-              "RelativeDocumentMoniker": "StacktimApi\\Controllers\\TeamController.cs",
-              "ToolTip": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi\\Controllers\\TeamController.cs",
-              "RelativeToolTip": "StacktimApi\\Controllers\\TeamController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAmwFUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T18:47:52.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi\\Controllers\\PlayerController.cs",
-              "RelativeDocumentMoniker": "StacktimApi\\Controllers\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi\\Controllers\\PlayerController.cs",
-              "RelativeToolTip": "StacktimApi\\Controllers\\PlayerController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAuwEAAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T08:14:03.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerDTO.cs",
-              "DocumentMoniker": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi\\DTOs\\PlayerDTO.cs",
-              "RelativeDocumentMoniker": "StacktimApi\\DTOs\\PlayerDTO.cs",
-              "ToolTip": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi\\DTOs\\PlayerDTO.cs",
-              "RelativeToolTip": "StacktimApi\\DTOs\\PlayerDTO.cs",
-              "ViewState": "AgIAAA8AAACAaGZmZuYUwBkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T07:29:14.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi\\Program.cs",
               "RelativeDocumentMoniker": "StacktimApi\\Program.cs",
               "ToolTip": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi\\Program.cs",
               "RelativeToolTip": "StacktimApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T14:55:22.93Z"
+              "WhenOpened": "2025-10-16T20:18:08.937Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Team.cs",
-              "DocumentMoniker": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi\\Model\\Team.cs",
-              "RelativeDocumentMoniker": "StacktimApi\\Model\\Team.cs",
-              "ToolTip": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi\\Model\\Team.cs",
-              "RelativeToolTip": "StacktimApi\\Model\\Team.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TestDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi.Tests\\Helpers\\TestDbContextFactory.cs",
+              "RelativeDocumentMoniker": "StacktimApi.Tests\\Helpers\\TestDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi.Tests\\Helpers\\TestDbContextFactory.cs",
+              "RelativeToolTip": "StacktimApi.Tests\\Helpers\\TestDbContextFactory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T14:51:36.56Z"
+              "WhenOpened": "2025-10-16T17:13:29.15Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi\\Model\\Player.cs",
-              "RelativeDocumentMoniker": "StacktimApi\\Model\\Player.cs",
-              "ToolTip": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi\\Model\\Player.cs",
-              "RelativeToolTip": "StacktimApi\\Model\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IntegrationTest1.cs",
+              "DocumentMoniker": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi.Tests\\IntegrationTest1.cs",
+              "RelativeDocumentMoniker": "StacktimApi.Tests\\IntegrationTest1.cs",
+              "ToolTip": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi.Tests\\IntegrationTest1.cs",
+              "RelativeToolTip": "StacktimApi.Tests\\IntegrationTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T14:29:50.097Z"
+              "WhenOpened": "2025-10-16T16:40:10.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StacktimDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi\\Data\\StacktimDbContext.cs",
+              "RelativeDocumentMoniker": "StacktimApi\\Data\\StacktimDbContext.cs",
+              "ToolTip": "C:\\Users\\perei\\Documents\\GitHub\\TPDotNet\\StacktimSolution\\StacktimApi\\Data\\StacktimDbContext.cs",
+              "RelativeToolTip": "StacktimApi\\Data\\StacktimDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T13:11:05.678Z",
+              "EditorCaption": ""
             }
           ]
         }
