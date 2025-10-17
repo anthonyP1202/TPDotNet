@@ -40,7 +40,7 @@ namespace StacktimApi.Tests.Controller
         }
 
         [Fact]
-        public void GetPlayer_WithValidId_ReturnsPlayer()
+        public void GetTeam_WithValidId_ReturnsTeam()
         {
             using (StacktimApi.Data.StacktimDbContext context = new StacktimApi.Data.StacktimDbContext(_options))
             {
