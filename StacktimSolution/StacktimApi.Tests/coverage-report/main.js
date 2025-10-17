@@ -215,13 +215,13 @@ var assemblies = [
     "classes": [
       { "name": "Program", "rp": "StacktimApi_Program.html", "cl": 0, "ucl": 15, "cal": 15, "tl": 30, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "StacktimApi.Controllers.PlayerController", "rp": "StacktimApi_PlayerController.html", "cl": 77, "ucl": 57, "cal": 134, "tl": 209, "cb": 18, "tb": 40, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "StacktimApi.Controllers.TeamController", "rp": "StacktimApi_TeamController.html", "cl": 0, "ucl": 49, "cal": 49, "tl": 96, "cb": 0, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "StacktimApi.Controllers.TeamController", "rp": "StacktimApi_TeamController.html", "cl": 13, "ucl": 36, "cal": 49, "tl": 96, "cb": 1, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "StacktimApi.Data.StacktimDbContext", "rp": "StacktimApi_StacktimDbContext.html", "cl": 75, "ucl": 6, "cal": 81, "tl": 105, "cb": 1, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "StacktimApi.DTOs.CreatePlayerDTO", "rp": "StacktimApi_CreatePlayerDTO.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 18, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "StacktimApi.DTOs.PlayerDTO", "rp": "StacktimApi_PlayerDTO.html", "cl": 6, "ucl": 1, "cal": 7, "tl": 38, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "StacktimApi.DTOs.UpdatePlayerDTO", "rp": "StacktimApi_UpdatePlayerDTO.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 24, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "StacktimApi.Model.Player", "rp": "StacktimApi_Player.html", "cl": 6, "ucl": 1, "cal": 7, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "StacktimApi.Model.Team", "rp": "StacktimApi_Team.html", "cl": 0, "ucl": 6, "cal": 6, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "StacktimApi.Model.Team", "rp": "StacktimApi_Team.html", "cl": 4, "ucl": 2, "cal": 6, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "StacktimApi.Model.TeamPlayer", "rp": "StacktimApi_TeamPlayer.html", "cl": 0, "ucl": 6, "cal": 6, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
 ];
