@@ -1,4 +1,4 @@
-USE [StacktimDb]
+USE [ StacktimDb]
 GO
 
 create table Players(
@@ -21,9 +21,10 @@ create table Teams(
 
 create table TeamPlayers(
 	TeamId INT,
-	CONSTRAINT FK_TeamPlayers_Teams FOREIGN KEY (TeamId) REFERENCES Teams(ID),
+	CONSTRAINT FK_TeamPlayers_Teams FOREIGN KEY (TeamId) REFERENCES Teams(ID) ON DELETE CASCADE ON UPDATE CASCADE,
 	PlayerId INT,
-	CONSTRAINT FK_TeamPlayers_Players FOREIGN KEY (PlayerId) REFERENCES Players(ID),
+	CONSTRAINT FK_TeamPlayers_Players FOREIGN KEY (PlayerId) REFERENCES Players(ID) ON DELETE CASCADE ON UPDATE CASCADE,
 	Role INT CHECK (Role IN (0, 1, 2)),
 	JoinDate DATETIME DEFAULT GETDATE()
+
 )
