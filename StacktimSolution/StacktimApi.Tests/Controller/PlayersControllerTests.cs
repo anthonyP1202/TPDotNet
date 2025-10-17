@@ -165,5 +165,36 @@ namespace StacktimApi.Tests.Controller
                 Assert.True(playersByEmail.Count()==1);
             }
         }
+
+        [Fact]
+        public void DeletePlayer_WithValidId_ReturnsNoContent()
+        {
+            using (StacktimApi.Data.StacktimDbContext context = new StacktimApi.Data.StacktimDbContext(_options))
+            {
+                //Set
+                PlayerController playerController = new PlayerController(context);
+                Player player = context.Players.FirstOrDefault();
+                if (player == null)
+                {
+                    List<Player> players = new List<Player>
+                    {
+                        new Player { Email = "testting@test.com", Pseudo = "testting", Rank = "Gold", TotalScore = 0 },
+                        new Player { Email = "outofidea'sbrother@test.com", Pseudo = "outofidea'sbrother", Rank = "Silver", TotalScore = 0 }
+                    };
+
+                    context.AddRange(players);
+                    context.SaveChanges();
+                }
+                player = context.Players.First();
+
+                //ACT
+                ActionResult<Player> result = playerController.Delete(player.Id);
+
+                //TEST
+                Assert.IsType<OkResult>(result.Result);
+                Player deletedPlayer = context.Players.FirstOrDefault(play=>play.Id == player.Id);
+                Assert.True(deletedPlayer == null);
+            }
+        }
     }
 }
