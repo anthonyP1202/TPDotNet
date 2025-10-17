@@ -1,4 +1,5 @@
 ﻿using IdentityModel.OidcClient;
+using k8s.KubeConfigModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StacktimApi.Controllers;
@@ -68,6 +69,26 @@ namespace StacktimApi.Tests.Controller
                 var okResult = Assert.IsType<OkObjectResult>(playerToTest.Result);
                 PlayerDTO playerDto = Assert.IsType<PlayerDTO>(okResult.Value);
                 Assert.Equal(player.Id, playerDto.Id);
+            }
+        }
+        [Fact]
+        public void GetPlayer_WithInvalidId_ReturnsNotFound()
+        {
+            using (StacktimApi.Data.StacktimDbContext context = new StacktimApi.Data.StacktimDbContext(_options))
+            {
+                //Arrange
+                PlayerController playerController = new PlayerController(context);
+                Player player = context.Players.FirstOrDefault(play=>play.Id == 0);
+                if (player != null) {
+                    Assert.Fail("how tf d'you get a index 0"); // proly bad fix if you have time future me 
+                }
+
+                //act 
+                ActionResult<PlayerDTO> playerToTest = playerController.Get(0);
+
+                //TEST 
+                Assert.IsType<NotFoundResult>(playerToTest.Result);
+
             }
         }
     }

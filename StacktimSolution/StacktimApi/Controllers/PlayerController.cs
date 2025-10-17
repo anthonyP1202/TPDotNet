@@ -46,7 +46,6 @@ namespace StacktimApi.Controllers
         public ActionResult<PlayerDTO> Get(int id)
         {
             Player player = _context.Players.FirstOrDefault(play=>play.Id == id);
-            Console.WriteLine(player.Id);
             if (player == null)
             {
                 return NotFound();
